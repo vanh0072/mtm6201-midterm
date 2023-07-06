@@ -8,16 +8,71 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>
-            <!--logo-->
-            Jaecu's Resto
-        </h1>
-        <nav>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <h1>
+                <img src="images/jaecus-resto-logo-full.jpg" alt="jaecu's resto logo">
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="contactus">
+                <h2 class="contactus">Contact Us</h2>
+                <img src="images/contactusimg-6000px.jpg" alt="image of phillipines">
+            </div>
+            <div class="contactform">
+                <form action="action_page.php">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email...">
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+            <div class="info">
+                <h3>Address</h3>
+                <p>
+                    16 Somerset St. W,
+                    Ottawa, ON K1R 5JR
+                </p>
+                <table>
+                    <tr>
+                      <th>Hours</th>
+                    </tr>
+                    <tr>
+                      <td>Monday: Closed</td>
+                      <td>Tuesday - Friday: 11am - 7pm</td>
+                      <td>Saturday - Sunday: 11am - 10pm</td>
+                    </tr>
+                    <tr>
+                        <th>Follow Us</th>
+                      </tr>
+                    <tr>
+                        <td>Instagram</td>                      <td>Facebook</td>
+                        <td>Twitter</td>
+                    </tr>
+                  </table>
+            </div>
+            <img src="images/aboutusimg-6000px.jpg" alt="image of phillipines">
+        </main>
+        <footer>
+            &copy; Copyright 2023.
+            Address.
+            <!--social media icons-->
+        </footer>
+    </div>
 </body>
 </html>
