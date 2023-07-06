@@ -180,6 +180,10 @@ nav ul li a:hover {
     padding-top: 20px;
 }
 
+.team h2, h3 {
+    text-align: center;
+}
+
 .team img {
     width: 300px;
     height: auto;
