@@ -69,7 +69,7 @@ h1 img {
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    transition: transform 0.5s, background 0.5s,
     opacity 0.55s ease;
 }
 
@@ -106,8 +106,6 @@ h1 img {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -467,7 +465,7 @@ footer {
         border-radius: 3px;
         z-index: 1;
         transform-origin: 4px 0px;
-        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+        transition: transform 0.5s, background 0.5s,
         opacity 0.55s ease;
     }
     
@@ -504,8 +502,6 @@ footer {
       display: flex;
       flex-direction: column;
       list-style-type: none;
-      -webkit-font-smoothing: antialiased;
-      /* to stop flickering of text in safari */
       
       transform-origin: 0% 0%;
       transform: translate(-100%, 0);
@@ -844,7 +840,7 @@ footer {
         border-radius: 3px;
         z-index: 1;
         transform-origin: 4px 0px;
-        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+        transition: transform 0.5s, background 0.5s,
         opacity 0.55s ease;
     }
     
@@ -881,8 +877,6 @@ footer {
       display: flex;
       flex-direction: column;
       list-style-type: none;
-      -webkit-font-smoothing: antialiased;
-      /* to stop flickering of text in safari */
       
       transform-origin: 0% 0%;
       transform: translate(-100%, 0);
